@@ -162,13 +162,6 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="characteristic">Something I Need Help With Right Now</div>
             <div class="placeholder">${person.needHelp}</div>
-    
-            <div class="portfolio-button">
-                <div class="button" id="portfolio-link-${person.name.replace(/\s+/g, '-')}" onclick="window.open('${person.portfolioLink}', '_blank')">
-                    <div class="label">Portfolio</div>
-                    <img class="icon-left" alt="" src="./image/chevron.png">
-                </div>
-            </div>
         `;
     
         container.appendChild(card);
