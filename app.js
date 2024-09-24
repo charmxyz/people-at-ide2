@@ -2,20 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('card-container');
 
     const people = [
-        {
-            "name": "Henry Drayton",
-            "spiritAnimal": "Seal",
-            "threeTopic": "Sculpture, Surfing, Nature Biology",
-            "excitedThings": "Getting to create!",
-            "needHelp": "IT emails information all that jazzz"
-          },
-          {
-            "name": "William Napier",
-            "spiritAnimal": "Cougar",
-            "threeTopic": "US politics, AI, Fine Arts",
-            "excitedThings": "Excited to be in London",
-            "needHelp": "Access to labs"
-          },
           {
             "name": "Khalil Ismail",
             "spiritAnimal": "Dolphin",
